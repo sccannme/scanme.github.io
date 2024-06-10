@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ************* */
+.logo {
+    position: relative;
+    text-align: center;
+}
+
+.logo-scan {
+    position: absolute;
+    bottom: -70px; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logo-scan img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.logo-scan p {
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: cursive;
+}
+
+.section {
+    padding-top: 100px; 
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+.about p{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about h1 {
+    font-size: 2em;
+}
+
+.about-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.text-list{
+    text-align: left;
+}
+
+.contact-cart {
+    text-align: center;
+    border: 0.5px solid transparent;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.836);
+    box-shadow: rgba(20, 17, 17, 0.575) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 90px;
+}
+
+.icon-section{
+    padding: 10px;
+}
+
+.contact-icon{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-icon a{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 22px;
+    box-shadow: rgba(150, 143, 143, 0.35) 0px 5px 15px;
+}
+
+.contact-cart i{
+    font-size: 35px;
+    color: white;
+}
+
+footer{
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.foot-scan{
+    text-align: center;
+    font-family: cursive;
+}
